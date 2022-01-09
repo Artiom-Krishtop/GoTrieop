@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px 86px;
+}
+
+.header {
+    background: linear-gradient(132.05deg, #428E5F -17.38%, #112120 78.4%);
+    border-radius: 90px 90px 0px 0px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+.header a {
+    color: #ffffff;
+}
+
+.nav {
+    margin: auto 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 173px;
+    padding: 0px 24px;
+}
+
+.logo {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.nav-logo {
+    width: 10%;
+}
+
+.nav-navbar {
+    width: 52%;
+}
+
+.nav__item {
+    display: inline-block;
+    margin: auto 50px;
+}
+
+.nav-group-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-btn-signup {
+    padding-right: 31px;
+}
+
+.nav-btn-login {
+    display: inline-block;
+    width: 163px;
+    height: 63px;
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

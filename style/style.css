@@ -74,12 +74,18 @@ body {
 }
 
 .header{
+    background:url(../images/bubbles.svg) no-repeat 92.5% 65%,
+                url(../images/girl.svg) no-repeat 100%,
+                linear-gradient(132.05deg, #428E5F -17.38%, #112120 78.4%);
+    border-radius: 90px 90px 0px 0px;
+}
+
+.bottom-rectangle{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background:linear-gradient(132.05deg, #428E5F -17.38%, #112120 78.4%);
-    border-radius: 90px 90px 0px 0px;
-    position: relative;
+    background:url(../images/rectangle.png) no-repeat 0% 104.5%;
+    background-size: contain;
 }
 
 .header-logo{
@@ -223,16 +229,103 @@ body {
 }
     /* header explore end */
 
-    /* header images start */
+    /* content start */
 
-.header-image-girl{
-    position: absolute;
-    right: -106px;
-    bottom: -200px;
-    background-image: url(../images/girl.svg);
-    background-repeat: no-repeat;
-    width: 1154px;
-    height: 1145px;
+.content{
+    background: #F6F6F6;
+    padding-top: 109px;
+}
+.content__galerey{
+    margin-bottom: 172px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
 }
 
-    /* header images end */
+.wrapper-full-right{
+    padding: 0px 0px 0px 100px;
+}
+
+.galerey-notice{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    color: #0F1F1C;
+    width: 456px; 
+}
+
+.sub-header__text{
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.galerey-notice__header{
+    margin-bottom: 17px;
+}
+
+.header__text{
+    font-size: 55px;
+    line-height: 82px;
+}
+
+.description__text{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.galerey-notice__description{
+    margin-bottom: 60px;
+}
+
+.galerey-notice__button{
+    width: 223px;
+    height: 79px;
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
+    border-radius: 27px;
+    border: 0px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FEFEFE;
+}
+
+.galerey-slider{
+    overflow: hidden;
+}
+
+.galerey-slider-items{
+    display: flex;
+    align-items: center;
+    margin: 0px 49px;
+}
+
+.galerey-slider-items::after{
+
+}
+
+.galerey-slider-items::before{
+    
+}
+
+.galerey-clider__item-image{
+    width: 335px;
+    height: 402px;
+    overflow: hidden;
+    border-radius: 35px;
+    border: 1px solid black;
+}
+
+.galerey-clider__item-image.active{
+    width: 380px;
+    height: 456px;
+    overflow: hidden;
+    margin: 0px 30px;
+}
+
+
+
+    /* content end */
+
